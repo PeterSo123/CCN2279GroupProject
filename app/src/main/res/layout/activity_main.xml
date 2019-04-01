@@ -23,6 +23,7 @@
             android:paddingLeft="10dp"
             android:textSize="20dp"
             android:textColor="#FFFFFF"
+            android:fontFamily="@font/helveticaneue"
             android:text="You now at"/>
 
         <Spinner
@@ -33,6 +34,8 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:paddingBottom="5dp"
+            android:fontFamily="@font/title_font"
+            tools:text="Test1"
             android:scrollbarStyle="insideOverlay"
             android:background="@drawable/location_spinner_style" />
 
